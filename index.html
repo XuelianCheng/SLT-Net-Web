@@ -250,37 +250,51 @@
 			</tr>
 		</table>
 	</center>
-
+	
 	<center><h1>Short-term Pipeline</h1></center>
-
-	<table align=center width=420px>
-		<center>
+	<center>
+		<table align=center width=850px>
 			<tr>
-				<td>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:600px" src="./images/short_term.png"/>
+					</center>
 				</td>
 			</tr>
-		</center>
-	</table>
-	<table align=center width=400px>
-		<tr>
-			<td align=center width=400px>
-				<center>
-					<td><img class="round" style="width:600px" src="./images/short_term.png"/></td>
-				</center>
-			</td>
-		</tr>
-	</table>
-	<table align=center width=850px>
-		<center>
+		</table>
+		<table align=center width=850px>
 			<tr>
 				<td>
 				The overview of our short-term pipeline. The network first extracts features from the input frames by a transformer encoder,
-				then computes a full-range volumetric correspondence between the reference frame It and its neighboring frame It+1 to form a correlation
+				then computes a full-range volumetric correspondence between the reference frame I_t and its neighboring frame I_{t+1} to form a correlation
 				volume pyramid. A CNN decoder is used to predict the final prediction from the motions captured by the short-term correlation pyramid.
 				</td>
 			</tr>
-		</center>
-	</table>
+		</table>
+	</center>
+
+	<center><h1>Long-term Pipeline</h1></center>
+	<center>
+		<table align=center width=850px>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:600px" src="./images/long_term.png"/>
+					</center>
+				</td>
+			</tr>
+		</table>
+		<table align=center width=850px>
+			<tr>
+				<td>
+				The overview of the proposed long-term consistency architecture. It formulates the process as a seq-to-seq modeling problem
+				and refines the pair-wise predictions with a sequence-to-sequence transformer.
+				</td>
+			</tr>
+		</table>
+	</center>
+
+
 	<br>
 	<hr>
 	<table align=center width=450px>
