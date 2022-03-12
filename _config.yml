@@ -1,1 +1,6 @@
+title: Implicit Motion Handling for Video Camouflaged Object Detection
+author: Xuelian Cheng
+email: xuelian.cheng@monash.edu
+description: SLT-Net: A new video camouflaged detection (VCOD) framework that can use both short-term dynamics and long-term temporal consistency to detect camouflaged objects from video frames.
+
 theme: jekyll-theme-cayman
