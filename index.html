@@ -139,10 +139,10 @@
 	<br>
 	<center>
 		<span style="font-size:36px">Implicit Motion Handling for Video Camouflaged Object Detection</span>
-		<table align=center width=800px>
-			<table align=center width=800px>
+		<table align=center width=1000px>
+			<table align=center width=1000px>
 				<tr>
-					<td align=center width=100px>
+					<td align=center width=120px>
 						<center>
 							<span style="font-size:18px"><a href="https://scholar.google.com/citations?user=gQ5kHH8AAAAJ&hl=en">Xuelian Cheng</a></span>
 						</center>
@@ -152,7 +152,7 @@
 							<span style="font-size:18px"><a href="https://scholar.google.com/citations?user=l4hm14MAAAAJ&hl=en">Huan Xiong</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=120px>
 						<center>
 							<span style="font-size:18px"><a href="https://dengpingfan.github.io/">Deng-ping Fan</a></span>
 						</center>
@@ -162,12 +162,12 @@
 							<span style="font-size:18px"><a href="https://scholar.google.com.sg/citations?user=E9NVOBUAAAAJ&hl=en">Yiran Zhong</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=120px>
 						<center>
 							<span style="font-size:18px"><a href="https://sites.google.com/site/mehrtashharandi/">Mehrtash Harandi</a></span>
 						</center>
 					</td>
-					<td align=center width=100px>
+					<td align=center width=120px>
 						<center>
 							<span style="font-size:18px"><a href="http://twd20g.blogspot.com/">Tom Drummond</a></span>
 						</center>
@@ -183,45 +183,26 @@
 				<tr>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href=''>[Paper]</a></span>
+							<span style="font-size:20px"><a href=''>[Paper]</a></span>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://github.com/XuelianCheng/SLT-Net'>[GitHub]</a></span><br>
+							<span style="font-size:20px"><a href='https://github.com/XuelianCheng/SLT-Net'>[GitHub]</a></span><br>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://drive.google.com/file/d/1FB24BGVrPOeUpmYbKZJYL5ermqUvBo_6/view?usp=sharing'>[MoCA-Mask]</a></span><br>
+							<span style="font-size:20px"><a href='https://drive.google.com/file/d/1FB24BGVrPOeUpmYbKZJYL5ermqUvBo_6/view?usp=sharing'>[MoCA-Mask]</a></span><br>
 						</center>
 					</td>
 					<td align=center width=120px>
 						<center>
-							<span style="font-size:24px"><a href='https://drive.google.com/file/d/1a7ESYE30q5MHsmrfTasNEOsbjdpZdgz5/view?usp=sharing'>[MoCA-Mask-Pseudo]</a></span><br>
+							<span style="font-size:20px"><a href='https://drive.google.com/file/d/1a7ESYE30q5MHsmrfTasNEOsbjdpZdgz5/view?usp=sharing'>[MoCA-Mask-Pseudo]</a></span><br>
 						</center>
 					</td>
 				</tr>
 			</table>
-		</table>
-	</center>
-
-	<center>
-		<table align=center width=850px>
-			<tr>
-				<td width=260px>
-					<center>
-						<img class="round" style="width:500px" src="./images/overall.png"/>
-					</center>
-				</td>
-			</tr>
-		</table>
-		<table align=center width=850px>
-			<tr>
-				<td>
-				The overall pipeline of the SLT-Net. The SLT-Net consists of a short-term detection module and a long-term refinement module. The short-term detection module takes a pair of consecutive frames and predicts the camouflaged object mask for the reference frame. The long-term refinement module takes T predictions from the short-term detection module along with their corresponding referenced frames to generate the final predictions.	
-				</td>
-			</tr>
 		</table>
 	</center>
 
@@ -247,24 +228,30 @@
 	</table>
 	<br>
 
-<!-- 	<hr>
-	<center><h1>Talk</h1></center>
-	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
-	</p>
+	<center><h1>Overall Pipeline</h1></center>
+	<center>
+		<table align=center width=850px>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:600px" src="./images/overall.png"/>
+					</center>
+				</td>
+			</tr>
+		</table>
+		<table align=center width=850px>
+			<tr>
+				<td>
+				The overall pipeline of the SLT-Net. The SLT-Net consists of a short-term detection module and a long-term refinement module.
+				The short-term detection module takes a pair of consecutive frames and predicts the camouflaged object mask for the reference 
+				frame. The long-term refinement module takes T predictions from the short-term detection module along with their corresponding 
+				referenced frames to generate the final predictions.	
+				</td>
+			</tr>
+		</table>
+	</center>
 
-	<table align=center width=800px>
-		<br>
-		<tr>
-			<center>
-				<span style="font-size:28px"><a href=''>[Slides]</a>
-				</span>
-			</center>
-		</tr>
-	</table>
-	<hr>
- -->
-	<center><h1>Code</h1></center>
+	<center><h1>Short-term Pipeline</h1></center>
 
 	<table align=center width=420px>
 		<center>
@@ -278,7 +265,7 @@
 		<tr>
 			<td align=center width=400px>
 				<center>
-					<td><img class="round" style="width:450px" src="./images/short_term.png"/></td>
+					<td><img class="round" style="width:600px" src="./images/short_term.png"/></td>
 				</center>
 			</td>
 		</tr>
