@@ -1,8 +1,6 @@
-@misc{cheng2022implicit,
-      title={Implicit Motion Handling for Video Camouflaged Object Detection}, 
-      author={Xuelian Cheng and Huan Xiong and Deng-Ping Fan and Yiran Zhong and Mehrtash Harandi and Tom Drummond and Zongyuan Ge},
-      year={2022},
-      eprint={2203.07363},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{cheng2022implicit,
+  title={Implicit Motion Handling for Video Camouflaged Object Detection},
+  author={Cheng, Xuelian and Xiong, Huan and Fan, Deng-Ping and Zhong, Yiran and Harandi, Mehrtash and Drummond, Tom and Ge, Zongyuan},
+  booktitle={CVPR},
+  year={2022}
 }
